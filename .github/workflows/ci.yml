@@ -19,4 +19,4 @@ jobs:
     needs: build
     steps:
       - uses: actions/checkout@v4
-      - run: docker build -t legitpayz-card-servicei .
+      - run: docker build -t legitpayz-card-service-ci .
